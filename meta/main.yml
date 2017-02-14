@@ -1,0 +1,24 @@
+galaxy_info:
+  author: J. Matt Peterson
+  description: Filebeat for nginx access and error logs for LSST SQuaRE.
+  company: LSST SQuaRE
+  issue_tracker_url: https://github.com/lsst-sqre/ansible-filebeat-nginx/issues
+  license: MIT
+  min_ansible_version: 2.1
+  platforms:
+  - name: Ubuntu
+    versions:
+    - xenial
+  - name: EL
+    versions:
+    - 7
+  galaxy_tags:
+    - centos
+    - beats
+    - elastic
+    - filebeat
+    - system
+    - ubuntu
+
+dependencies:
+  - { role: jmatt.beats }
